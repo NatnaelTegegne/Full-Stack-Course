@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    color: #82a5ca;
+}
+
+
+
+#container {
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExazZ2dzc0aTZwbW51dHFidWpuZGYzcnVpbmF4bTFrcjVtdm42NWlxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif");
+    background-size: cover;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    height: 15em;
+}
+
+.btn {
+    font-family: "Orbitron", sans-serif;
+    width: 200px;
+    padding: 10px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 40px;
+    background: white;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.spn {
+    border-bottom: 4px solid white;
+}
+
+#spc-logo {
+    width: 300px;
+}
+
+#terms {
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h1 {
+    text-shadow: 0px 0px 4px black;
+}

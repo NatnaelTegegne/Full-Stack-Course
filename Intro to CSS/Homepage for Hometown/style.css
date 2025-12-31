@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Orbitron", sans-serif;
+    background-color: beige;
+
+}
+
+#Hero {
+    margin: 0px 0px;
+    background-image: url("./assets/lasvegas.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+     align-items: center;  
+    
+}
+
+#Hero h1 {
+    color: aliceblue;
+    font-size: xxx-large;
+    font-weight: 900;
+}
+
+
+#activities {
+    margin: 50px 20px;
+    text-align: center;
+
+    
+}
+#activities h1 {
+    font-size: xxx-large;
+    margin-bottom: 20px;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.each-card {
+    display: block;
+    justify-content: center;
+    width: 450px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.each-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgb(0, 0, 0, 0.2);
+
+}
+
+.each-card p{
+    text-align: start;
+}
+
+.each-card img {
+    width: 450px;
+    border-radius: 15px;
+}
+
+#business-card {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: linear-gradient(rgb(123, 123, 233), rgb(239, 144, 144));
+    padding: 20px;
+    border-radius: 10px;
+    
+
+}
+
+.business-card-wrapper {
+    border-radius: 10px 10px 0 10px ;
+    margin: 0px 520px;
+    border: 2px solid #8f19f9;
+
+    
+}
+
+#business-card img {
+    
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+
+
+}
+.text {
+    width: 200px;
+    gap: 100px;
+}
+
+
+#footer {
+    margin-top: 100px;
+    background-color: #03045e;
+    color: white;
+    height: 200px;
+    padding: 20px 50px;
+
+}

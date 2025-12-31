@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #016f32;
+    color: white;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 50px;
+    text-align: center;
+}
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    color: #016f32;
+    background-color: goldenrod;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+
+}
+
+#player-el {
+    font-weight: bold;
+}
